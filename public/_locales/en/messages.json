@@ -1,5 +1,8 @@
 {
   "extensionName": {
     "message": "ReelMeter"
+  },
+  "extensionDescription": {
+    "message": "Privacy-first browser extension tracking short-form video consumption."
   }
 }
