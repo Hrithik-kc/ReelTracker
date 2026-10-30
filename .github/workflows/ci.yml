@@ -1,0 +1,10 @@
+# CI Workflow: lint, typecheck, unit, build, e2e on every PR
+name: CI
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

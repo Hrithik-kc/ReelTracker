@@ -1,0 +1,11 @@
+# Release Workflow: on tag zip Chrome/Firefox builds, GitHub Release
+name: Release
+on:
+  push:
+    tags:
+      - "v*"
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

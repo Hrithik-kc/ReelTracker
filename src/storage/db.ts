@@ -1,0 +1,2 @@
+// Dexie (IndexedDB) setup
+export {};
